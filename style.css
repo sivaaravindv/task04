@@ -2214,7 +2214,8 @@ header .notifications {
     bottom: 6px;
   }
   .popular-content::-webkit-scrollbar,
-  .streamers::-webkit-scrollbar {
+  .streamers::-webkit-scrollbar,
+  .bottom-content::-webkit-scrollbar {
     width: 0;
     height: 0;
   }
