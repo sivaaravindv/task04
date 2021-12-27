@@ -1155,12 +1155,15 @@ header .notifications {
   color: #202938;
   font-weight: 700;
   border-radius: 5px;
-
+  margin: 0 aut0;
   padding: 8px 80px;
+  text-align: center;
 }
 
 .closing-tournament {
   padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
 }
 .closing-tournament .progress-bar .pro-2 {
   width: var(--prowidth2);
