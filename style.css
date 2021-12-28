@@ -612,6 +612,7 @@ header .notifications {
   width: 100%;
   height: 40vh;
   max-height: 180px;
+  max-width: 280px;
   border: 2px solid transparent;
   border-radius: 12px;
   padding: 12px 12px;
@@ -1526,7 +1527,7 @@ header .notifications {
 }
 .poster {
   width: 100%;
-  height: 37vh;
+  height: 36vh;
   background: linear-gradient(
     45deg,
     rgba(162, 52, 194, 1) 28%,
@@ -1840,8 +1841,32 @@ header .notifications {
   .progressing::before {
     display: none;
   }
+
+  .poster {
+    width: 100%;
+    height: 16vh;
+  }
+
+  .poster img:nth-child(even) {
+    width: 65px;
+    left: 100px;
+  }
+  .poster img:nth-child(odd) {
+    width: 100px;
+    right: 100px;
+  }
+  .bannerimg-1 img {
+    width: 300px;
+  }
+  .bannerimg-2 img {
+    width: 170px;
+  }
 }
 @media screen and (min-width: 1020px) {
+  .banner {
+    width: 100%;
+    height: 21vh;
+  }
   #searchbar {
     width: 270px;
     height: 25px;
@@ -1863,7 +1888,7 @@ header .notifications {
     left: 0vw;
     z-index: 0;
     height: fit-content;
-    min-height: 93%;
+    min-height: 93.5%;
     border-bottom-right-radius: 15px;
   }
   label[for='sidebar-btn'] {
@@ -2049,6 +2074,10 @@ header .notifications {
     border: transparent;
     background-color: transparent;
   }
+  .poster {
+    width: 100%;
+    height: 11vh;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -2227,12 +2256,13 @@ header .notifications {
     height: 100%;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 240px 240px 240px;
+    grid-template-columns: 237px 297px 279px;
     grid-template-rows: auto auto;
     column-gap: 1em;
   }
   .bottom-content .bot1 .bottom-thumb {
     max-height: 1000px;
+    max-width: 600px;
   }
   .bottom-content .bot1 {
     max-width: 100%;
@@ -2254,7 +2284,7 @@ header .notifications {
   }
 
   .bannerimg-1 img {
-    width: 281px;
+    width: 309px;
   }
   .bannerimg-2 {
     right: 240px;
@@ -2262,5 +2292,10 @@ header .notifications {
   }
   .bannerimg-2 img {
     width: 200px;
+  }
+
+  .poster {
+    width: 100%;
+    height: 36vh;
   }
 }
