@@ -1416,7 +1416,7 @@ header .notifications {
   position: absolute;
   width: 220px;
   height: 220px;
-  border: 6px solid #2a323f;
+  border: 7px solid #2a323f;
   border-radius: 63px;
   bottom: 40px;
   left: 0px;
@@ -1425,11 +1425,12 @@ header .notifications {
 }
 .tapp {
   position: absolute;
-  width: 220px;
+  width: 221px;
   height: 220px;
-  border-right: 6px solid #2a323f;
-  border-left: 6px solid #2a323f;
-  border-bottom: 6px solid #2a323f;
+  border-right: 7px solid #2a323f;
+  border-left: 7px solid #2a323f;
+  border-bottom: 7px solid #2a323f;
+  z-index: 1;
   border-radius: 63px;
   bottom: 40px;
   left: 0px;
@@ -2115,18 +2116,18 @@ header .notifications {
   }
 
   .box {
-    min-width: 160px;
-    width: 165px;
+    min-width: 162px;
+    width: 167px;
     height: 290px;
     min-height: 250px;
     margin: 0 auto;
   }
   .tap,
   .tapp {
-    min-width: 160px;
-    min-height: 160px;
-    width: 165px;
-    height: 165px;
+    min-width: 162px;
+    min-height: 162px;
+    width: 167px;
+    height: 167px;
   }
   .tap img,
   .box img {
